@@ -1,0 +1,52 @@
+:root {
+
+    --banner-background: #F7FAFC;
+    --form-default-foreground: #1A202C;
+    --input-foreground: #FFF;
+
+    --link-foreground: #2B6CB0;
+
+    --first-button: #04C35C;
+    --second-button: #1A202C;
+
+    --input-border: #E8E8E8;
+}
+
+/* [Banner] */
+
+.banner {
+    background: var(--banner-background);
+}
+
+/* [Form] */
+
+form {
+    color: var(--form-default-foreground);
+}
+
+/* [Inputs de login] */
+
+input:is([type='text'], [type='password']){
+    border-color: var(--input-border);
+}
+
+/* [Links] */
+
+a {
+    color: var(--link-foreground);
+}
+
+
+/* [buttons] */
+
+input[type='button'] {
+    color: var(--input-foreground);
+}
+
+#joinNormal {
+    background: var(--first-button);
+}
+
+#joinGoogle {
+    background: var(--second-button);
+}
